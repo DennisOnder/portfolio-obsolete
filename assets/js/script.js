@@ -25,47 +25,47 @@ $(function () {
 $(function () {
     $('#photo1').hover(function () {
         $('#photo1').css('opacity', '0.9');
-        $('#p1').css('display', 'block');
-        $('#t1').css('display', 'block');
+        $('#p1').css('visibility', 'visible');
+        $('#t1').css('visibility', 'visible');
     }, function () {
         $('#photo1').css('opacity', '1');
-        $('#p1').css('display', 'none');
-        $('#t1').css('display', 'none');
+        $('#p1').css('visibility', 'hidden');
+        $('#t1').css('visibility', 'hidden');
     });
 });
 
 $(function () {
     $('#photo2').hover(function () {
         $('#photo2').css('opacity', '0.9');
-        $('#p2').css('display', 'block');
-        $('#t2').css('display', 'block');
+        $('#p2').css('visibility', 'visible');
+        $('#t2').css('visibility', 'visible');
     }, function () {
         $('#photo2').css('opacity', '1');
-        $('#p2').css('display', 'none');
-        $('#t2').css('display', 'none');
+        $('#p2').css('visibility', 'hidden');
+        $('#t2').css('visibility', 'hidden');
     });
 });
 
 $(function () {
     $('#photo3').hover(function () {
         $('#photo3').css('opacity', '0.9');
-        $('#p3').css('display', 'block');
-        $('#t3').css('display', 'block');
+        $('#p3').css('visibility', 'visible');
+        $('#t3').css('visibility', 'visible');
     }, function () {
         $('#photo3').css('opacity', '1');
-        $('#p3').css('display', 'none');
-        $('#t3').css('display', 'none');
+        $('#p3').css('visibility', 'hidden');
+        $('#t3').css('visibility', 'hidden');
     });
 });
 
 $(function () {
     $('#photo4').hover(function () {
         $('#photo4').css('opacity', '0.9');
-        $('#p4').css('display', 'block');
-        $('#t4').css('display', 'block');
+        $('#p4').css('visibility', 'visible');
+        $('#t4').css('visibility', 'visible');
     }, function () {
         $('#photo4').css('opacity', '1');
-        $('#p4').css('display', 'none');
-        $('#t4').css('display', 'none');
+        $('#p4').css('visibility', 'hidden');
+        $('#t4').css('visibility', 'hidden');
     });
 });
