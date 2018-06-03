@@ -16,9 +16,9 @@ body {
 }
 
 #showcase h1 {
-    padding: 2em;
+    padding: 40px;
     color: #ffd89b;
-    opacity: .7;
+    opacity: .9;
     letter-spacing: .3em;
     font-family: 'Roboto', Arial, Helvetica, sans-serif;
     font-size: 56px;
@@ -27,7 +27,7 @@ body {
 #showcase p {
     color: #ffd89b;
     font-size: 24px;
-    opacity: .7;
+    opacity: .9;
     font-family: 'roboto', Arial, Helvetica, sans-serif;
     font-weight: 200;
 }
@@ -295,6 +295,12 @@ footer img {
 }
 
 /* Media Queries */
+
+@media (max-height: 940px) {
+    .hide {
+        display: none;
+    }
+}
 
 @media (max-width: 1200px) {
     #button {
