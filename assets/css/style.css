@@ -1,7 +1,6 @@
 body {
     margin: 0;
     padding: 0;
-    overflow: hidden;
 }
 
 #showcase {
@@ -82,7 +81,6 @@ body {
 .section-about,
 .section-portfolio,
 .section-contact {
-    border: 1px solid #000;
     padding: 3em;
 }
 
@@ -102,12 +100,11 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 2fr);
     grid-gap: 10px;
-    height: 500px;
+    height: 600px;
 }
 
 .photo {
     transition: .5s;
-    border: .5px solid black;
     -webkit-box-shadow: 4px 3px 19px 1px rgba(0, 0, 0, 0.75);
     -moz-box-shadow: 4px 3px 19px 1px rgba(0, 0, 0, 0.75);
     box-shadow: 4px 3px 19px 1px rgba(0, 0, 0, 0.75);
@@ -116,14 +113,14 @@ body {
 .photo p {
     color: #fff;
     padding-top: 3em;
-    display: none;
+    visibility: hidden;
 }
 
 .photo a {
-    display: none;
+    visibility: hidden;
     margin: auto;
     width: 100px;
-    border: .5px solid #000;
+    display: block;
 }
 
 .section-contact button {
@@ -343,7 +340,7 @@ footer img {
         margin-right: 50px;
     }
     .image1, .image2, .image3 {
-        height: 300px;
+        height: 200px;
     }
 }
 
@@ -389,6 +386,6 @@ footer img {
         font-size: 22px;
     }
     .image1, .image2, .image3 {
-        height: 200px;
+        height: 100px;
     }
 }
